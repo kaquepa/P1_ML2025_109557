@@ -1,6 +1,6 @@
 # Bank Marketing Campaign - Machine Learning Classification Report
 
-**Author:** [Your Name]  
+**Author:** Domingos Graciano  
 **Date:** November 7, 2025  
 **Course:** Machine Learning  
 **Dataset:** Bank Marketing Dataset (UCI Machine Learning Repository)
