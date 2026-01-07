@@ -562,7 +562,7 @@ By adjusting the classification threshold, we can trade precision for recall:
 
 ### 7.2 Business Value
 
-✅ **Achieved Objectives**:
+ **Achieved Objectives**:
 - Reduced contact costs by up to 78%
 - Improved conversion rate from 11.3% to 34.6% (3x improvement)
 - Identified 68% of potential customers with only 22% of contacts
@@ -661,7 +661,7 @@ All visualizations saved in `data/` directory.
 
 ## Key Takeaways – Bank Marketing ML Project
 #  Modeling Insights
-- Insight	📈 Impact / Interpretation
+- Insight	Impact / Interpretation
 Logistic Regression outperformed complex models	Achieved best AUC-ROC (0.7963) and strongest generalization; simple, regularized model resisted SMOTE overfitting.
 Tree models (RF, XGBoost) overfit heavily	CV AUC > 0.97 but Test AUC < 0.77 → memorized synthetic samples from SMOTE.
 Economic indicators dominate feature importance	euribor3m, nr.employed, emp.var.rate explained over 40% of model variance.
@@ -669,7 +669,7 @@ Feature engineering boosted performance	New variables like economic_score and co
 Removing “duration” avoided data leakage	Slight AUC drop but ensured deployability — realistic, ethical modeling choice.
 
 #  Data & Methodology Highlights
--  Step	✅ Key Decision
+-  Step	 Key Decision
 Missing Data Handling	Mode imputation for low-missing fields; retained “unknown” for default (true missingness).
 Balancing Technique	SMOTE applied only on training set to address 8:1 imbalance safely.
 Encoding & Scaling	Target encoding for categorical features; StandardScaler for numeric ones.
@@ -679,11 +679,11 @@ Regularization	Logistic Regression with C=0.1 minimized overfitting; strong L2 p
 ---
 # Performance Summary
 - Metric	Logistic Regression	Random Forest	XGBoost
-- AUC-ROC	⭐ 0.7963	0.7496	0.7685
+- AUC-ROC	 0.7963	0.7496	0.7685
 - Recall (Positive Class)	67.6%	47.6%	46.8%
 - Precision	34.6%	33.3%	31.8%
 - Accuracy	81.9%	83.3%	82.7%
-- Overfitting?	❌ No	⚠️ Yes	⚠️ Yes
+- Overfitting?	 No	 Yes Yes
 
  Winner: Logistic Regression – best trade-off between performance, generalization, and interpretability.
 
@@ -706,4 +706,4 @@ Automated Retraining	Retrain quarterly; monitor AUC and drift metrics continuous
 ---
  
 Final Message
-“Simplicity scales. Logistic Regression, when well-regularized and properly engineered, outperformed more complex ensembles — proving that interpretability and performance can coexist in business-critical applications.”
+“Simplicity scales. Logistic Regression, when well regularized and properly engineered, outperformed more complex ensembles — proving that interpretability and performance can coexist in business-critical applications.”
