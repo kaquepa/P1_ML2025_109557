@@ -1,4 +1,4 @@
-# Bank Marketing Campaign - Machine Learning Classification Report
+# Bank Marketing Campaign Optimization System
 
 **Author:** Domingos Graciano  
 **Date:** November 7, 2025  
